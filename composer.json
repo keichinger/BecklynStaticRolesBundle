@@ -11,10 +11,11 @@
       "homepage": "http://becklyn.com/"
     }
   ],
+  "minimum-stability": "beta",
   "require": {
-    "php": ">=5.5",
-    "symfony/config": "^2.8|^3.0",
-    "symfony/security-core": "^2.8|^3.0"
+    "php": "^7.1",
+    "symfony/config": "^4.0.0-BETA1",
+    "symfony/security-core": "^4.0.0-BETA1"
   },
   "autoload":     {
     "psr-4": { "Becklyn\\StaticRolesBundle\\": "" }
